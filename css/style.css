@@ -1,0 +1,481 @@
+
+
+body{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    padding: 3% 5% 3%;
+}
+
+/* navbar */
+/* html{
+    scroll-behavior: smooth;
+} */
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+    display: grid;
+}
+
+.navbar span{
+    font-family: 'Ubuntu';
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 1.2rem;
+}
+
+.nav-link{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.letstalk{
+    background-color: orange;
+    border: transparent;
+}
+
+/* title */
+
+.headercontent{
+    background-color: black;
+    color: white;
+    padding: 0 5%;
+}
+
+.title-image{
+    width: 75%;
+    margin: 10% 0 10% 20%;
+}
+
+.head-left{
+    padding-top: 10%;
+}
+
+.head-left h4{
+    font-size: 0.9rem;
+    font-weight: 550;
+    padding-bottom: 3%;
+}
+
+.head-left h1{
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+}
+
+.head-left h3{
+    font-size: 0.9rem;
+}
+
+.head-left span{
+    color: orange;
+}
+
+.header-button{
+    margin-top: 5%;
+    color: orange;
+    border-color: orange;
+}
+
+/* press */
+
+#press{
+    background-color: #1a1b1f;
+    color: white;
+}
+
+.press-image{
+    width: 100%;
+}
+
+.press-right{
+    padding: 4% 8%;
+}
+
+.press-right h4{
+    font-size: 0.9rem;
+    font-weight: 550;
+    padding-bottom: 3%;
+}
+
+.press-right h3{
+    font-size: 0.9rem;
+}
+
+#h3pad{
+    padding: 1rem 0;
+}
+
+#h3orng{
+    color: orange;
+}
+
+.press-button{
+    border-color: orange;
+    color: white;
+    margin-top: 1rem;
+}
+
+/* showcase */
+
+.container{
+    padding: 10rem;
+}
+
+.text-1 h5{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(174, 174, 174);
+}
+
+.text-1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text-2 h3{
+    font-size: 0.9rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+.text-2 span{
+    font-weight: bold;
+}
+
+.work{
+    background-color: orange;
+    border-color: transparent;
+    color: white;
+}
+
+#row-1{
+    padding-bottom: 7%;
+}
+
+.showcase-image{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+/* awards */
+
+#awards{
+    background-color: #faf8f9;
+}
+
+#award-1 h5{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(174, 174, 174);
+}
+
+#award-1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+#award-1 h3{
+    font-size: 0.9rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.award-image{
+    width: 100%;
+}
+
+#last-awd{
+    padding-top: 6rem;
+}
+
+.award-discription{
+    font-size: 0.9rem;
+    color: gray;
+    padding-top: 1rem;
+}
+
+#award-1 h2{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+}
+
+#award-left-section{
+    padding-top: 10rem;
+}
+
+#last-awd img{
+    padding-bottom: 1.6rem;
+}
+
+/* services */
+
+#left-service{
+    padding: 8% 3%;
+}
+
+#services h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+#services h5{
+    font-size: 0.9rem;
+    color: black;
+    padding-top: 1rem;
+}
+
+.services-image{
+    width: 100%;
+}
+
+/* get noticed */
+
+#get-noticed{
+    background-color: #f9f8f7;
+}
+
+.GN-image{
+    background-image: url(../images/GN-image.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-text h1{
+    padding: 5% 60% 0 10%;
+    font-size: 3rem;
+}
+
+.GN-logo{
+    width: 30%;
+}
+
+.GN-features h3{
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 5%;
+}
+
+.GN-features ul{
+    list-style: none;
+}
+
+.GN-features ul li{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.GN-features ul li span{
+    color: orange;
+}
+
+/* affiliation */
+
+#affiliation{
+    background-color: #1a1b1e;
+}
+
+.AF-logo{
+    width: 80%;
+    margin-left: 12%;
+}
+
+/* testimonials */
+
+#testimonials h3{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(174, 174, 174);
+    padding-top: 10%;
+}
+
+#testimonials h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+#testimonials h4{
+    font-size: 0.9rem;
+    color: black;
+    padding-bottom: 3rem;
+}
+
+#testimonials h5{
+    font-size: 0.9rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+#testimonials h5 span{
+    font-weight: bold
+}
+
+.right-tt{
+    padding-top: 5%;
+}
+
+/* showcase - 2 */
+
+#showcase-2{
+    background-color: black;
+}
+
+#showcase-2 h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 3%;
+}
+
+#showcase-2 h3{
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* blog */
+
+.blog-part1 h3{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(174, 174, 174);
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.blog-part1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 2%;
+}
+
+.blog-part1 h4{
+    font-size: 0.9rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+#post-button{
+    padding-top: 8%;
+    align-content: right;
+}
+
+.blog-part1-a{
+    float: left;
+}
+
+.blog-part1-b{
+    padding-top: 7%;
+    float: right;
+}
+
+#blog-part2{
+    padding-top: 1%;
+}
+
+.blog-logo{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.blog-discription{
+    background-color: #f9f9f9;
+    width: 80%;
+    margin-left: 10%;
+    padding: 3% 5%;
+}
+
+.blog-discription h5{
+    font-size: 0.9rem;
+}
+
+.blog-discription h3{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* contact */
+
+#contact{
+    background-color: black;
+}
+
+.contact-part1{
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+}
+
+.contact-part1 h1{
+    width: 60%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    float: left;
+    padding-top: 2%;
+}
+
+.contact-part1 button{
+    margin-top: 2%;
+    float: right;
+}
+
+.contact-part2 h3{
+    width: 60%;
+    float: left;
+    padding-top: 2%;
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* footer */
+
+.footer1{
+    color: black;
+}
+
+.footer1 i{
+    padding: 10% 2%;
+}
+
+#text1{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(174, 174, 174); 
+    padding-bottom: 4%;
+}
+
+#text2{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+}
+
+#text3{
+    font-size: 0.9rem;
+    color: black;
+}
+
+.signup{
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: black;
+    border: transparent;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width:1028px){
+    html{
+        font-size: 70%;
+    }
+}
